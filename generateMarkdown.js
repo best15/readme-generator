@@ -48,9 +48,24 @@ function renderLicenseSection(license) { }
 function generateMarkdown(data) {
   let licenseBadge = renderLicenseBadge(data.license);
 
-  return `# ${data.projecttitle}\n## Description\n${data.description}\n## Installation\n${data.installation}\n## usage\n${data.usage}\n## license\n${data.license}${licenseBadge} \n## contribute\n${data.contribute}## test\n${data.test}\n## Question\n;
+  return `
+  ${licenseBadge} 
+  # ${data.projecttitle}
+  ## Description
+  ${data.description}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## license
+  This project is licensed under ${data.license} license ${licenseBadge} 
+  ## Contribute
+  ${data.contribute}
+  ## Tests
+  ${data.test}
+  ## Questions
+  For any questions, please contact ${data.email} or https://github.com/${data.username}`;
 
-`;
 }
 
 module.exports = generateMarkdown;
