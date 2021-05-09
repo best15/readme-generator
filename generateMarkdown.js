@@ -59,12 +59,13 @@ function generateMarkdown(data) {
   [Usage](#usage)\n
   [License](#license)\n
   [Contribute](#contribute)\n
+  [Questions] (#questions)
 
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
-  ## license
+  ## License
   This project is licensed under ${data.license} license.\n
   ${licenseBadge} 
   ## Contribute
@@ -72,7 +73,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.test}
   ## Questions
-  For any questions, please contact
+  For any questions, please contact \n
   ${data.email}\n
   [GitHub](https://github.com/${data.username})
 

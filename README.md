@@ -1,8 +1,8 @@
 
-  [![License-Apache](https://img.shields.io/badge/license-Apache-blue)](https://opensource.org/licenses/Apache-2.0) 
-  # readme 
+  [![License-BSD-3](https://img.shields.io/badge/license-BSD-green)](https://opensource.org/licenses/BSD-3-Clause) 
+  # readmeproject
   ## Description
-  describe
+  description
 
   ## Table of Contents
   [Installation](#installation)
@@ -13,21 +13,23 @@
 
   [Contribute](#contribute)
 
+  [Questions] (#questions)
 
   ## Installation
-  install
+  installation
   ## Usage
-  use of 
-  ## license
-  This project is licensed under Apache license.
+  usage
+  ## License
+  This project is licensed under BSD license.
 
-  [![License-Apache](https://img.shields.io/badge/license-Apache-blue)](https://opensource.org/licenses/Apache-2.0) 
+  [![License-BSD-3](https://img.shields.io/badge/license-BSD-green)](https://opensource.org/licenses/BSD-3-Clause) 
   ## Contribute
   contribute
   ## Tests
   test
   ## Questions
-  For any questions, please contact
+  For any questions, please contact 
+
   lochan.sharad@gmail.com
 
   [GitHub](https://github.com/best15)
