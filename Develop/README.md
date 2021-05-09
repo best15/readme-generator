@@ -1,8 +1,8 @@
 
-  [![License-BSD-3](https://img.shields.io/badge/license-BSD-green)](https://opensource.org/licenses/BSD-3-Clause) 
-  # readmeproject
+  [![License-Mozilla](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses/MPL-2.0) 
+  # Readme Generator
   ## Description
-  description
+  This project is a command-line application that dynamically generates a high quality, professional README.md using user's input and Node.js inquirer package. 
 
   ## Table of Contents
   [Installation](#installation)
@@ -13,22 +13,20 @@
 
   [Contribute](#contribute)
 
-  [Tests](#tests)
-
-  [Question](#questions)
+  [Questions](#questions)
 
   ## Installation
-  installation
+  To install, clone this project in your directory. Make sure you have installed node.js and NPM in your system
   ## Usage
-  usage
+  To use this application simply run node index.js from the project directory and start answering the prompts.
   ## License
-  This project is licensed under BSD license.
+  This project is licensed under Mozilla license.
 
-  [![License-BSD-3](https://img.shields.io/badge/license-BSD-green)](https://opensource.org/licenses/BSD-3-Clause) 
+  [![License-Mozilla](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses/MPL-2.0) 
   ## Contribute
-  contribute
+  To contribute to the project, please contact the developer about the issue or new feature request of the application.
   ## Tests
-  test
+  To test this application, simply run the application and answer all the prompts. Check to see the generated README file.
   ## Questions
   For any questions, please contact 
 

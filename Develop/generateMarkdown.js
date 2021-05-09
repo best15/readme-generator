@@ -50,8 +50,9 @@ function generateMarkdown(data) {
   [Installation](#installation)\n
   [Usage](#usage)\n
   [License](#license)\n
+  [Test](#tests)\n
   [Contribute](#contribute)\n
-  [Questions] (#questions)
+  [Questions](#questions)
 
   ## Installation
   ${data.installation}
