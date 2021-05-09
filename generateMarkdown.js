@@ -53,19 +53,29 @@ function generateMarkdown(data) {
   # ${data.projecttitle}
   ## Description
   ${data.description}
+  
+  ##Table of Contents
+  [Installation](#installation)
+  [Usage](#usage)
+  [License](#license)
+  [Contribute](#contribute)
+
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
   ## license
-  This project is licensed under ${data.license} license ${licenseBadge} 
+  This project is licensed under ${data.license} license. ${licenseBadge} 
   ## Contribute
   ${data.contribute}
   ## Tests
   ${data.test}
   ## Questions
-  For any questions, please contact ${data.email} or https://github.com/${data.username}`;
+  For any questions, please contact
+  ${data.email}
+  [GitHub](https://github.com/${data.username})
 
+`
 }
 
 module.exports = generateMarkdown;
