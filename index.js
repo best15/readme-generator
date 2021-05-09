@@ -1,8 +1,8 @@
-// Include packages needed for this application
+//packages needed for this application
 let inquirer = require("inquirer");
 const fs = require("fs");
 
-// Create an array of questions for user input
+//array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -10,9 +10,10 @@ const questions = [
         message: 'Enter the name of the Project',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Select license for the Project',
+        choices: ["Apache","BSD", "GNU", "MIT", "Mozilla","Eclipse"]
     },
     {
         type: 'input',
