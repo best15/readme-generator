@@ -14,7 +14,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Select license for the Project',
-        choices: ["Apache","BSD", "GNU", "MIT", "Mozilla","Eclipse"]
+        choices: ["Apache","BSD", "MIT", "Mozilla","Eclipse"]
     },
     {
         type: 'input',
@@ -58,9 +58,10 @@ const questions = [
 
 //function to write README file
 function writeToFile(data) { 
-  console.log(generateMarkdown(data))  ;
+  let markdownfile = generateMarkdown(data)  ;
 
-// fs.writeFile("README.md" ,)
+fs.writeFile("README.md" ,markdownfile, (err) =>
+err ? console.log(err) : console.log("sucess!"));
 
 }
 

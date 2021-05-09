@@ -47,8 +47,8 @@ function renderLicenseSection(license) { }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let licenseBadge = renderLicenseBadge(data.license);
-console.log(licenseBadge);
-  return `# ${data.projecttitle}
+
+  return `# ${data.projecttitle}\n## Description\n${data.description}\n## Installation\n${data.installation}\n## usage\n${data.usage}\n## license\n${data.license}${licenseBadge} \n## contribute\n${data.contribute}## test\n${data.test}\n## Question\n;
 
 `;
 }
