@@ -61,10 +61,10 @@ function generateMarkdown(data) {
   ## License
   This project is licensed under ${data.license} license.\n
   ${licenseBadge} 
-  ## Contribute
-  ${data.contribute}
   ## Tests
   ${data.test}
+  ## Contribute
+  ${data.contribute}
   ## Questions
   For any questions, please contact \n
   ${data.email}\n
