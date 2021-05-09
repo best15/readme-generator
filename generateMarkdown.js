@@ -53,26 +53,27 @@ function generateMarkdown(data) {
   # ${data.projecttitle}
   ## Description
   ${data.description}
-  
-  ##Table of Contents
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contribute](#contribute)
+
+  ## Table of Contents
+  [Installation](#installation)\n
+  [Usage](#usage)\n
+  [License](#license)\n
+  [Contribute](#contribute)\n
 
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
   ## license
-  This project is licensed under ${data.license} license. ${licenseBadge} 
+  This project is licensed under ${data.license} license.\n
+  ${licenseBadge} 
   ## Contribute
   ${data.contribute}
   ## Tests
   ${data.test}
   ## Questions
   For any questions, please contact
-  ${data.email}
+  ${data.email}\n
   [GitHub](https://github.com/${data.username})
 
 `
