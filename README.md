@@ -4,6 +4,7 @@ User's are requested with series of promp't asking about the Title, Descriptions
 
 Walkthrough Video Link:  https://drive.google.com/file/d/1mLJV3vSRd2yK7Fscok_-HxxIW2DIFb-E/view
 
-Generated README file link: https://github.com/best15/readme-generator/blob/main/Develop/README.md
+Sample README link: ./assests/SampleREADME.MD
+
 
 ![README Generator](./images/readmegenerator.jpg)
