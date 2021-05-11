@@ -4,7 +4,6 @@ User's are requested with series of promp't asking about the Title, Descriptions
 
 Walkthrough Video Link:  https://drive.google.com/file/d/1mLJV3vSRd2yK7Fscok_-HxxIW2DIFb-E/view
 
-Sample README link: ./assests/SampleREADME.MD
-
+Sample README link: [README](./assests/SampleREADME.md)
 
 ![README Generator](./images/readmegenerator.jpg)
